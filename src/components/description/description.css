@@ -1,0 +1,104 @@
+.main {
+    width: 295px;
+    height: 347px;
+    padding: 24px;
+}
+
+.title,
+.gabrielle,
+.contains,
+.price {
+    width: 295px;
+}
+
+.title {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: #6c7289;
+    font-family: Montserrat;
+}
+
+.gabrielle {
+    font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+  color: #1c232b;
+  margin-top: 12px;
+}
+
+.contains {
+    font-size: 14px;
+  font-weight: 500;
+  line-height: 1.64;
+  color: #6c7289;
+  margin-top: 16px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 29px;
+    gap: 19px;
+}
+
+.price h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3d8168;
+}
+
+.price p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.77;
+    color: #6c7289;
+    text-decoration:line-through; 
+    font-family: Montserrat;
+}
+
+.addToCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 295px;
+    height: 48px;
+    background-color: #3d8168;
+    gap: 11.6px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.addToCart:hover {
+    cursor: pointer;
+    background-color: #1a4032;
+}
+
+.addToCart img {
+    width: 14.4px;
+    height: 16px;
+}
+
+.addToCart p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    font-family: Montserrat;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .main {
+        width: 236px;
+        height: 386px;
+    }
+
+.title,
+.gabrielle,
+.contains,
+.price,
+.addToCart {
+    width: 236px;
+}
+}
